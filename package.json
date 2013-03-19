@@ -1,0 +1,21 @@
+{
+  "name": "pipd",
+  "version": "0.0.0",
+  "description": "A module to run modules in pipe",
+  "bin": "./index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "alberto.zaccagni@lazywithclass.com",
+  "license": "BSD",
+  "dependencies": {
+    "optimist": "~0.3.5",
+    "lodash": "~1.0.1",
+    "coffee-script": "~1.6.1"
+  },
+  "devDependencies": {
+    "read": "~1.0.4"
+  }
+}
