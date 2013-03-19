@@ -7,14 +7,14 @@ This still uses the old (pre v0.10.0) version of streams API, I will update it.
 
 ###Install
 
-npm install -g pipd
+`npm install -g pipd`
 
 ###Usage
 
-pipd moduleA moduleB
+`pipd moduleA moduleB`
 
 Will pipe moduleA emitted data into moduleB.
 
 ###...
 
-Yes, this relies on eval. It was the simplest way to do it.
+Yes, this relies on `eval`. It was the simplest way to do it.
