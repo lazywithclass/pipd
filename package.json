@@ -1,14 +1,21 @@
 {
   "name": "pipd",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A module to run modules in pipe",
   "bin": "./index.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "make run"
   },
-  "repository": "",
-  "author": "alberto.zaccagni@lazywithclass.com",
+  "repository": "https://github.com/lazywithclass/pipd",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "author": {
+    "name": "Alberto Zaccagni",
+    "email": "alberto.zaccagni@lazywithclass.com",
+    "url": "http://lazywithclass.com"
+  },
   "license": "BSD",
   "dependencies": {
     "optimist": "~0.3.5",
@@ -17,5 +24,13 @@
   },
   "devDependencies": {
     "read": "~1.0.4"
-  }
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "eval",
+    "module",
+    "stream",
+    "require"
+  ]
 }
